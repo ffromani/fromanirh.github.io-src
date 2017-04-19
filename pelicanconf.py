@@ -26,6 +26,11 @@ LINKS = (
     ('Python.org', 'http://python.org/'),
 )
 
+STATIC_PATHS = [
+    'images',
+    'pdfs'
+]
+
 # Social widget
 SOCIAL = (
 )
@@ -34,3 +39,14 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Where to look for plugins
+PLUGIN_PATHS = [
+    '../pelican-plugins'
+]
+# Which plugins to enable
+PLUGINS = [
+    'better_figures_and_images'
+]
+
+RESPONSIVE_IMAGES = True
